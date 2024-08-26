@@ -37,29 +37,29 @@ Para garantir que sua API funcione corretamente, instale os seguintes pacotes Nu
 - **Microsoft.AspNetCore.JsonPatch**: Suporte para JSON Patch no ASP.NET Core.
 - **Newtonsoft.Json**: Biblioteca para manipulação de JSON.
 
-Você pode adicionar esses pacotes ao seu projeto usando o seguinte comando no **Package Manager Console**:
+## Você pode adicionar esses pacotes ao seu projeto usando o seguinte comando no **Package Manager Console**:
 
-Install-Package Microsoft.EntityFrameworkCore.Tools
-Install-Package Microsoft.EntityFrameworkCore.Design
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.AspNetCore.JsonPatch
-Install-Package Newtonsoft.Json
+- Install-Package Microsoft.EntityFrameworkCore.Tools
+- Install-Package Microsoft.EntityFrameworkCore.Design
+- Install-Package Microsoft.EntityFrameworkCore.SqlServer
+- Install-Package Microsoft.AspNetCore.JsonPatch
+- Install-Package Newtonsoft.Json
 
 Ou, se você estiver usando o .NET CLI, use:
 
-dotnet add package Microsoft.EntityFrameworkCore.Tools
-dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.AspNetCore.JsonPatch
-dotnet add package Newtonsoft.Json
+- dotnet add package Microsoft.EntityFrameworkCore.Tools
+- dotnet add package Microsoft.EntityFrameworkCore.Design
+- dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+- dotnet add package Microsoft.AspNetCore.JsonPatch
+- dotnet add package Newtonsoft.Json
 
 Configuração 🔧
 
 1. Clone o Repositório:
- git clone <URL_DO_REPOSITORIO>
+- git clone <URL_DO_REPOSITORIO>
 
 2. Navegue até o Diretório do Projeto:
- cd Api-Biblioteca
+- cd Api-Biblioteca
 
 3.Configure a String de Conexão:
 - Atualize o arquivo appsettings.json com a string de conexão do seu banco de dados SQL Server.
@@ -67,8 +67,8 @@ Configuração 🔧
 4. Execute as Migrações:
 - Execute as migrações para criar o banco de dados e as tabelas necessárias.
 
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+- dotnet ef migrations add InitialCreate
+- dotnet ef database update
  
 5. Inicie o Projeto!
 
