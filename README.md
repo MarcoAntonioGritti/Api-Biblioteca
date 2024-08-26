@@ -86,9 +86,9 @@ dotnet ef database update
 Contribuição 🤝
 Sinta-se à vontade para contribuir com o projeto. Para fazer isso, siga os seguintes passos:
 
-Fork o repositório.
-Crie uma nova branch (git checkout -b feature-nova).
-Faça suas alterações e commit (git commit -a "Adiciona nova feature").
-Faça o push para a branch (git push origin feature-nova).
-Abra um Pull Request.
+## Fork o repositório.
+- Crie uma nova branch (git checkout -b feature-nova).
+- Faça suas alterações e commit (git commit -a "Adiciona nova feature").
+- Faça o push para a branch (git push origin feature-nova).
+- Abra um Pull Request.
   
